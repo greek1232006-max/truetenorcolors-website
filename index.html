@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Truetenor - Your Brand's Voice">
+    <title>Truetenor - Your Brand's Voice</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', 'Montserrat', sans-serif;
+            background: #f8f9fa;
+            color: #2d3436;
+            line-height: 1.6;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo-container {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #3a1c5c 0%, #4a2468 50%, #5a2d7a 100%);
+            border-radius: 20px;
+        }
+        
+        .logo-container img {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            color: #2d3436;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            color: #636e72;
+        }
+        
+        .card {
+            background: linear-gradient(135deg, #3a1c5c 0%, #4a2468 50%, #5a2d7a 100%);
+            border: 2px solid #73d2de;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        
+        .card p {
+            font-size: 1.1em;
+            color: #e8e8f0;
+            margin-bottom: 20px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .feature {
+            background: linear-gradient(135deg, #3a1c5c 0%, #4a2468 50%, #5a2d7a 100%);
+            border: 2px solid #73d2de;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(115, 210, 222, 0.3);
+        }
+        
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        
+        .feature p {
+            color: #e8e8f0;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #73d2de 0%, #5abccb 100%);
+            color: #2d1a4a;
+            padding: 14px 35px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(115, 210, 222, 0.3);
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(115, 210, 222, 0.5);
+            background: linear-gradient(135deg, #5abccb 0%, #73d2de 100%);
+        }
+        
+        .color-swatches {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        .swatch {
+            text-align: center;
+        }
+        
+        .swatch-box {
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            border: 2px solid #73d2de;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .swatch-label {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .swatch-name {
+            font-size: 0.8em;
+            color: #73d2de;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Truetenor Logo">
+        </div>
+        
+        <div class="header">
+            <h1>Truetenor</h1>
+            <p>Your Brand's Voice - Color Palette Design</p>
+        </div>
+        
+        <div class="card">
+            <h2>Deep Purple Foundation</h2>
+            <p>The color palette is built around your logo's rich purple gradient background (#4a2468 and surrounding tones). This creates a sophisticated, premium feel with excellent contrast for the cyan accent color.</p>
+            <a href="#" class="button">Explore More</a>
+        </div>
+        
+        <div class="grid">
+            <div class="feature">
+                <h3>Cyan Accents</h3>
+                <p>The signature cyan (#73d2de) from your waveform creates vibrant, eye-catching highlights and interactive elements.</p>
+            </div>
+            <div class="feature">
+                <h3>Glass Effects</h3>
+                <p>Semi-transparent backgrounds with blur effects add depth and modern sophistication to the design.</p>
+            </div>
+            <div class="feature">
+                <h3>Premium Feel</h3>
+                <p>Dark gradients combined with glowing accents create a high-end, professional appearance.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Brand Color Palette</h2>
+            <p>These colors are extracted and harmonized from your Truetenor logo to create a cohesive visual identity.</p>
+            <div class="color-swatches">
+                <div class="swatch">
+                    <div class="swatch-box" style="background: linear-gradient(135deg, #3a1c5c 0%, #5a2d7a 100%);"></div>
+                    <div class="swatch-label">Deep Purple</div>
+                    <div class="swatch-name">Primary BG</div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch-box" style="background-color: #4a2468;"></div>
+                    <div class="swatch-label">#4a2468</div>
+                    <div class="swatch-name">Logo Purple</div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch-box" style="background-color: #73d2de;"></div>
+                    <div class="swatch-label">#73d2de</div>
+                    <div class="swatch-name">Cyan Accent</div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch-box" style="background-color: #ffffff;"></div>
+                    <div class="swatch-label">#ffffff</div>
+                    <div class="swatch-name">White Text</div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch-box" style="background-color: #e8e8f0;"></div>
+                    <div class="swatch-label">#e8e8f0</div>
+                    <div class="swatch-name">Light Text</div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch-box" style="background-color: #2d1a4a;"></div>
+                    <div class="swatch-label">#2d1a4a</div>
+                    <div class="swatch-name">Dark Accent</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
